@@ -20,9 +20,8 @@
 .desc{
     display: flex;
     padding: 10px;
-    margin-right:auto;
+    flex-direction: column;
 }
-
 .listDiv{
     display:flex;
     justify-content: flex-end;
@@ -58,3 +57,8 @@
     padding: 30px;
     font-weight: bold;
 }
+@media (max-width: 600px) {
+    #Luffy {
+      display: none;
+    }
+  }
